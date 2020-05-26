@@ -13,7 +13,7 @@ public class datafromjson {
 
 	       try {
 	    	    //Your .json file path
-	            Object obj = parser.parse(new FileReader("C:\\Users\\Leyla GELEN\\Desktop\\data1.json"));
+	            Object obj = parser.parse(new FileReader("C:data1.json"));
 
 	            JSONObject jsonObject = (JSONObject) obj;
 	            //My array's name in json file 
